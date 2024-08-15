@@ -1,0 +1,35 @@
+GitHub:
+
+- Key Features:
+    1. Version Control: GitHub allows developers to track changes made to their codebase over time, ensuring that all changes are documented and can be reverted if necessary.
+    2. Collaboration: GitHub enables teams to collaborate on projects by allowing multiple users to contribute to a single repository, making it easy to work together on code.
+    3. Open-Source Community: GitHub has a large community of open-source developers who share and contribute to projects, making it easy to find and use existing code.
+
+GitLab:
+
+- Key Features:
+    1. Version Control: GitLab also offers version control, similar to GitHub, allowing developers to track changes made to their codebase.
+    2. Continuous Integration/Continuous Deployment (CI/CD): GitLab has built-in CI/CD pipelines, making it easy to automate testing and deployment, reducing the time and effort required to get code from development to production.
+    3. Issue Tracking: GitLab has a built-in issue tracking system, allowing teams to manage bugs and tasks, making it easy to keep track of what needs to be done.
+
+Licensing:
+
+- GitHub: Offers a mix of free and paid plans, with some features limited to paid plans, such as advanced security features and support.
+- GitLab: Offers a more permissive licensing approach, with most features available in the free plan, making it a more accessible option for small teams and individual developers.
+
+Feature Comparison:
+
+- Common Features:
+    1. Version Control
+    2. Collaboration
+    3. Issue Tracking
+    4. Project Management
+    5. Code Review
+- Unique to GitHub:
+    1. GitHub Actions (automated workflows)
+    2. GitHub Pages (static website hosting)
+    3. GitHub Marketplace (integration with third-party tools)
+- Unique to GitLab:
+    1. Built-in CI/CD Pipelines
+    2. GitLab Runner (automated testing and deployment)
+    3. GitLab Container Registry (container management)
