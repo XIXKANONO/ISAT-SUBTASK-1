@@ -1,0 +1,29 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+const int MAX_ORDERS = 100;
+
+struct Order {
+    int id;
+    string customerName;
+    int numMagwinyas;
+    double totalAmount;
+};
+
+int main() {
+    Order orders[MAX_ORDERS];
+    int numOrders = 0;
+
+    while (true) {
+        cout << "Magwinya Magic Orders" << endl;
+        cout << "1. Add Order" << endl;
+        cout << "2. Display Orders" << endl;
+        cout << "3. Exit" << endl;
+        int choice;
+        cin >> choice;
+
+        switch (choice) {
+            case 1:
+                if (numOrders < MAX_ORDERS) {
