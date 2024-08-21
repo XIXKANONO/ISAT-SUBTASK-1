@@ -1,0 +1,72 @@
+#include <iostream>
+#include <string>
+#include <cmath>
+
+using namespace std;
+
+string decimalToBinary(int n) {
+    return bitset<32>(n).to_string();
+}
+
+int binaryToDecimal(string b) {
+    return stoi(b, 0, 2);
+}
+
+string decimalToHexadecimal(int n) {
+    return hex(n);
+}
+
+int hexadecimalToDecimal(string h) {
+    return stoi(h, 0, 16);
+}
+
+int main() {
+    while (true) {
+        cout << "Converter Program" << endl;
+        cout << "1. Convert Decimal to Binary" << endl;
+        cout << "2. Convert Binary to Decimal" << endl;
+        cout << "3. Convert Decimal to Hexadecimal" << endl;
+        cout << "4. Convert Hexadecimal to Decimal" << endl;
+        cout << "5. Exit" << endl;
+        int choice;
+        cin >> choice;
+
+        switch (choice) {
+            case 1: {
+                int num;
+                cout << "Enter a decimal number: ";
+                cin >> num;
+                cout << "Binary equivalent: " << decimalToBinary(num) << endl;
+                break;
+            }
+            case 2: {
+                string binary;
+                cout << "Enter a binary number: ";
+                cin >> binary;
+                cout << "Decimal equivalent: " << binaryToDecimal(binary) << endl;
+                break;
+            }
+            case 3: {
+                int num;
+                cout << "Enter a decimal number: ";
+                cin >> num;
+                cout << "Hexadecimal equivalent: " << decimalToHexadecimal(num) << endl;
+                break;
+            }
+            case 4: {
+                string hex;
+                cout << "Enter a hexadecimal number: ";
+                cin >> hex;
+                cout << "Decimal equivalent: " << hexadecimalToDecimal(hex) << endl;
+                break;
+            }
+            case 5:
+                return 0;
+            default:
+                cout << "Invalid choice. Please try again." << endl;
+        }
+    }
+
+    return 0;
+}
+0 comments on commit a4a54c0
